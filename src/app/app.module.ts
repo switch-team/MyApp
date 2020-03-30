@@ -20,6 +20,7 @@ import { HeadingComponent } from './heading/heading.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
+import { MbscModule } from '@mobiscroll/angular-lite';
 
 
 export function HttpLoaderFactory(http:HttpClient){
@@ -39,6 +40,7 @@ export function HttpLoaderFactory(http:HttpClient){
   ],
   imports: [
     BrowserModule,
+    MbscModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     Material2Module,

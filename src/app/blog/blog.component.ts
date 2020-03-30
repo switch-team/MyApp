@@ -10,9 +10,13 @@ export class BlogComponent implements OnInit {
   
  constructor(){}
 
- ngOnInit(){
 
- 	//jQuery(function($){
+
+ ngOnInit(){
+	
+
+	//#region comments
+ 	jQuery(function($){
 
  			let owl = $('.owl-carousel');
 
@@ -40,8 +44,8 @@ export class BlogComponent implements OnInit {
 		    owl.trigger('prev.owl.carousel');
 		});
 
-	//});
-
+	});
+//#endregion
   }
 
 
