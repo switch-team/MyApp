@@ -28,7 +28,7 @@ const NAMES: string[] = [
   styleUrls: ['./pricing.component.css']
 })
 export class PricingComponent implements OnInit {
-  displayedColumns: string[] = ['id', 'name', 'color'];
+  displayedColumns: string[] = ['Name', 'Author','Section'];
   dataSource: MatTableDataSource<UserData>;
 
   @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
@@ -45,11 +45,9 @@ export class PricingComponent implements OnInit {
 
     
     this.httpClient.get("assets/data.json").subscribe(data =>{
-      console.log("DATA")
-      console.log(data);
+      
       this.users = data;
-      console.log("IIII")
-     console.log(this.users);
+      
     
     this.dataSource = new MatTableDataSource(this.users);
     this.dataSource.paginator = this.paginator;
