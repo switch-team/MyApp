@@ -1,0 +1,18 @@
+{
+    "HOME": {
+        "TITLE": "Harmony",
+        "TEXT": "Change language"
+      },
+      "NAV" :{
+        "About":"About",
+        "Activities":"Activities",
+        "Library":"Library",
+        "Members":"Members",
+        "Contact":"Contact"
+      },
+      "MEMBERS":{
+        "M1" :{
+          "Name" : "Kamel Awad"
+        }
+      }
+}

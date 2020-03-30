@@ -7,11 +7,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { Material2Module } from './material2.module';
+import { DirectivesModule } from './directives/directives.module';
 
 import {HttpClientModule , HttpClient} from '@angular/common/http';
 
 import {TranslateModule , TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { AboutComponent } from './about/about.component';
+import { HeadingComponent } from './heading/heading.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
+
 
 export function HttpLoaderFactory(http:HttpClient){
   return new TranslateHttpLoader(http)
@@ -20,7 +29,13 @@ export function HttpLoaderFactory(http:HttpClient){
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PortfolioComponent,
+    AboutComponent,
+    HeadingComponent,
+    PricingComponent,
+    BlogComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +43,7 @@ export function HttpLoaderFactory(http:HttpClient){
     BrowserAnimationsModule,
     Material2Module,
     FlexLayoutModule,
-    //DirectivesModule,
+    DirectivesModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
