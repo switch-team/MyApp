@@ -18,17 +18,17 @@ section{
 /* ------ icons -------- */
 
 .material-icons {
-  color: mat-color($nglp-accent, 700);
+  color: #720273;//mat-color($nglp-accent, 700);
 }
 
 .text-muted{
-  color: mat-color($nglp-accent, A700);
+  color:mat-color($nglp-accent, A700);
 }
 
 /* ------ navigation -------- */
 
 .navigation-toolbar {
-  background-color: mat-color($nglp-primary);
+  background-color: #720273;//mat-color($nglp-primary);
 }
 
 /* ------ mobile logo -------- */

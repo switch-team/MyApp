@@ -1,12 +1,12 @@
 <mat-toolbar class="navigation-toolbar" [class.navigation-is-mobile]="mobileQuery.matches" [class.mat-elevation-z0]="!isActive" [class.mat-elevation-z8]="isActive" [class.animated-header]="!isActivefadeInDown" [class.fadeInDown]="!isActivefadeInDown" [class.navigation-fixed]="!fixedTolbar">
-  <button fxShow="true" fxShow.gt-xs="false" mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+  <button fxShow="true" fxShow.gt-xs="false" mat-icon-button (click)="snav.toggle()"><mat-icon style="color: aliceblue;">menu</mat-icon></button>
   <a class="logo" fxShow="false" fxShow.gt-xs="true" href="#"><img src="assets/img/logo.png"></a>
   <mat-nav-list class="navigation-list" fxLayout="row" fxShow="false" fxShow.gt-xs="true">
-      <a mat-list-item href="#about">{{'NAV.About' | translate}}</a>
-      <a mat-list-item href="#portfolio">{{'NAV.Activities' | translate}}</a>
-      <a mat-list-item href="#pricing">{{'NAV.Library' | translate}}</a>
-      <a mat-list-item href="#blog">{{'NAV.Members' | translate}}</a>
-      <a mat-list-item href="#contact">{{'NAV.Contact' | translate}}</a>
+      <a mat-list-item href="#about" style="color: aliceblue;">{{'NAV.About' | translate}}</a>
+      <a mat-list-item href="#portfolio" style="color: aliceblue;">{{'NAV.Activities' | translate}}</a>
+      <a mat-list-item href="#pricing" style="color: aliceblue;">{{'NAV.Library' | translate}}</a>
+      <a mat-list-item href="#blog" style="color: aliceblue;">{{'NAV.Members' | translate}}</a>
+      <a mat-list-item href="#contact" style="color: aliceblue;">{{'NAV.Contact' | translate}}</a>
   </mat-nav-list>
   <span class="navigation-spacer"></span>
   <button id=contact-fab-button (click)="translate.use(ChangeLang())" mat-mini-fab color="primary" matTooltip="Change Languages" [matTooltipPosition]="'left'"><mat-icon>language</mat-icon></button>
