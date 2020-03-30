@@ -14,5 +14,15 @@
         "M1" :{
           "Name" : "Kamel Awad"
         }
+      },
+      "About":{
+        "Drawing" : {
+          "Title" : "The Drawing Section",
+          "Text" : "This section of harmony  cultural forum has enough space in addition  to  the  materials   that would help the recipient such as wooden colours , water colours , acrylic , and other things , plus , all sizes of pencils are available."
+        },
+        "Sculpting" :{
+          "Title" : "The Sculpting Section",
+          "Text" : "This section of harmony cultural forum has enough space in addition to the materials that would help the recipient"
+        }
       }
 }

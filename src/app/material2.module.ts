@@ -13,15 +13,16 @@ import { MatTableModule } from '@angular/material/table'
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input'
 import { MatDialogModule } from '@angular/material/dialog'
+import {MatPaginatorModule} from '@angular/material/paginator';
 
   
 @NgModule({
 
   imports: [MatButtonModule, MatCheckboxModule, MatCardModule, MatDividerModule, MatIconModule, 
             MatSidenavModule, MatToolbarModule, MatListModule, MatTooltipModule, MatTabsModule, 
-            MatTableModule, MatFormFieldModule, MatInputModule, MatDialogModule],
+            MatTableModule, MatFormFieldModule, MatInputModule, MatDialogModule,MatPaginatorModule],
   exports: [MatButtonModule, MatCheckboxModule, MatCardModule, MatDividerModule, MatIconModule, 
             MatSidenavModule, MatToolbarModule, MatListModule, MatTooltipModule, MatTabsModule, 
-            MatTableModule, MatFormFieldModule, MatInputModule, MatDialogModule]
+            MatTableModule, MatFormFieldModule, MatInputModule, MatDialogModule,MatPaginatorModule]
 })
 export class Material2Module { }
